@@ -3,28 +3,28 @@
 const db = require("../data/dbConfig");
 
     function find(){
-        return db("schemes")
+        return db.select().from("schemes");
 }
 
-//     function findById(id){
+    function findById(id){
 
-// }
+}
 
-//     function findSteps(){
+    function findSteps(){
 
-// }
+}
 
-//     function add(scheme){
+    function add(scheme){
 
-// }
+}
 
-//     function update(changes, id){
+    function update(changes, id){
 
-// }
+}
    
-//     function remove(id){
+    function remove(id){
 
-// }
+}
 
 module.exports = {
     find,
